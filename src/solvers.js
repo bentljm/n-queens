@@ -92,6 +92,7 @@ window.findNQueensSolution = function(n) {
     }
   };
   findSolution(0);
+
   console.log('Single solution for ' + n + ' queens:', JSON.stringify(solution));
   return solution;
 };
